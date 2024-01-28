@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngsessions.com.ActionDemo">
+      <class name="com.nucot.qa.hrm.pagetests.LoginPageTest">
         <methods>
-          <include name="keysConceptDemo"/>
-          <include name="launchBrowser"/>
-          <include name="appclose"/>
+          <include name="doLoginPageTest"/>
+          <include name="closeApp"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testngsessions.com.ActionDemo -->
+      </class> <!-- com.nucot.qa.hrm.pagetests.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
